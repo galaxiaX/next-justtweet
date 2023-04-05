@@ -1,4 +1,4 @@
-import { BsHouseFill, BsBellFill } from "react-icons/bs";
+import { BsHouseFill, BsBellFill, BsGithub } from "react-icons/bs";
 import { HiUser } from "react-icons/hi2";
 import { MdEmail } from "react-icons/md";
 import { BiLogOut } from "react-icons/bi";
@@ -40,6 +40,11 @@ const SideBar = () => {
       href: "/messages",
       icon: MdEmail,
       auth: true,
+    },
+    {
+      label: "Github",
+      href: "https://github.com/galaxiaX/next-justtweet",
+      icon: BsGithub,
     },
   ];
 
