@@ -23,7 +23,7 @@ const SideBarLogo = () => {
           text-sky-500
         "
     >
-      <BsTwitter size={28} color="0EA5E9" />
+      <BsTwitter size={28} color="#0EA5E9" />
       <p className="hidden md:block text-3xl font-bold text-sky-500">
         JustTweet
       </p>
